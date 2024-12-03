@@ -53,7 +53,7 @@ function split(str, sep)
     return result
 end
 
--- Função principal de interpretação do código
+-- Função principal de interpretação do código cuidado ao alterar algo aqui.
 local function interpretar(codigo)
     local dentroFuncao = false
     local funcaoNome, funcaoParametros, funcaoCorpo = nil, nil, ""
@@ -90,7 +90,6 @@ local function interpretar(codigo)
     end
 end
 
--- Executa o interpretador com um arquivo passado como argumento
 local caminhoArquivo = arg[1]
 if not caminhoArquivo then
     print("Uso: lua interpretador.lua <caminho do arquivo .krm>")
