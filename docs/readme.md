@@ -47,7 +47,7 @@ kuruma/
 ### Passos:
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SeuUsuario/Kuruma_interpreter.git
+   git clone https://github.com/Maeda1744/Kuruma_interpreter.git
    cd Kuruma_interpreter
    ```
 2. Crie ou edite arquivos `.krm` na pasta `exemplos/`.
