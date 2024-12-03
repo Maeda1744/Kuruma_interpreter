@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node", // Use node para rodar no terminal de depuração do VSCode
+            "request": "launch",
+            "name": "Executar Kuruma",
+            "program": "${workspaceFolder}/src/interpretador.lua",
+            "args": [
+                "${file}"
+            ],
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false
+        }
+    ]
+}

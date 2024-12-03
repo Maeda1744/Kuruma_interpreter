@@ -1,0 +1,5 @@
+funcao saudacao(nome)
+    escreva("Olá, " .. nome)
+fim
+
+saudacao("Mundo")
